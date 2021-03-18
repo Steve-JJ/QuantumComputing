@@ -15,9 +15,10 @@ def print_backend(backend, output_gate_props=False, output_qubit_props=False, ou
 
    print("Provider: {}".format(backend.provider()))
    print("Name: {}".format(backend.name()))
-   print("Hub: {}".format(backend.hub))
-   print("Group: {}".format(backend.group))
-   print("Project: {}".format(backend.project))
+   if backend.name() == 'qasm_simulator':
+       print("Hub: {}".format(backend.hub))   # The simulator does not have hub, group or project attributes
+       print("Group: {}".format(backend.group))
+       print("Project: {}".format(backend.project))
    print("Status info:")
    status = backend.status().to_dict()
    for i,k in status.items():
