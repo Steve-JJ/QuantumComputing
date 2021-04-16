@@ -19,7 +19,14 @@ If you have any questions or comments, please email me at:
 | tools.py | General tools |
 | backend_tools.py | Tools for managing IBM Q Experience devices |
 
-### Qiskit codes (see the Notebooks directory)
+## Qiskit codes (see the Notebooks directory)
+|  File/Notebook | Content                                                   |
+|----------------|-----------------------------------------------------------|
+| classification_using_quantum_SVM_kernel_method.ipynb | Extended discussion of a quantum Support Vector Machine|
+
+## Deprecated
+Please note these are basic tutorials written using early versions of Qiskit, so they
+may not run using the current version of Qiskit.
 
 |  File/Notebook | Content                                                   |
 |----------------|-----------------------------------------------------------|
