@@ -22,7 +22,8 @@ If you have any questions or comments, please email me at:
 ## Qiskit codes (see the Notebooks directory)
 |  File/Notebook | Content                                                   |
 |----------------|-----------------------------------------------------------|
-| classification_using_quantum_SVM_kernel_method.ipynb | Extended discussion of a quantum Support Vector Machine|
+| classification_using_quantum_SVM_kernel_method.ipynb | Extended discussion of a quantum Support Vector Machine
+(please see the LaTeX sub-directory for a PDF copy)|
 
 ## Deprecated
 Please note these are basic tutorials written using early versions of Qiskit, so they
