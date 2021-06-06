@@ -24,6 +24,7 @@ If you have any questions or comments, please email me at:
 |----------------|-----------------------------------------------------------|
 | classification_using_quantum_SVM_kernel_method.ipynb | Extended discussion of a quantum Support Vector Machine
 (please see the LaTeX sub-directory for a PDF copy)|
+| transpilation.ipynb | Overview of the transpilation process from gates to pulse schedules
 
 ## Deprecated
 Please note these are basic tutorials written using early versions of Qiskit, so they
